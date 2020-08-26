@@ -19,7 +19,7 @@ spec:
         env: stage
     spec: # test commit
       containers:
-      - image: ACRAKSPP.azurecr.io/photo-view:v1.0   # コンテナイメージの場所
+      - image: acrakspp.azurecr.io/photo-view:v1.0   # コンテナイメージの場所
         name: photoview-container   # コンテナ名
         ports:
         - containerPort: 80   # ポート番号
