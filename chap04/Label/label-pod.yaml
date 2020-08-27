@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nginx-pod-a
   labels:
-    env: test
+    env: stage
     app: photo-view
 spec:
   containers:
